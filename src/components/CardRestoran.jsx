@@ -74,7 +74,7 @@ const CardRestoran = (props) => {
               alt="..."
               className=""
             />
-            Restoran Pilihan
+            &nbsp;Restoran Pilihan
           </p>
           <p className="title-menu">{props.nama_restoran}</p>
           <p className="text-menu">{props.menu}</p>

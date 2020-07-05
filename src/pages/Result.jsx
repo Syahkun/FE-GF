@@ -90,7 +90,11 @@ class Result extends Component {
           ) : (
             <div className="">
               <Container fluid className="empty-res"></Container>
-              <Container fluid className="px-5">
+              <Container
+                fluid
+                className="px-5"
+                style={{ marginBottom: "5vmins" }}
+              >
                 <Container
                   fluid
                   className="mt-3"
@@ -103,6 +107,7 @@ class Result extends Component {
                     )}
                   />
                 </Container>
+                {/* {this.props.location.pathname === null} */}
                 <p className="pb-2 text-result">
                   <span className="text-path">
                     {this.props.location.pathname.replace(/[^\w\s]/gi, "")}

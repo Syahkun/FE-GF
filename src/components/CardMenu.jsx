@@ -13,18 +13,19 @@ const CardMenu = (props) => {
   return (
     <section>
       <div className="cardresto-comp">
-        <Card style={{ width: "18rem" }} className="Card-menu">
-          <Card.Img
+        <Card className="Card-menu">
+          <img
             value={props.nama_menu}
             onClick={() => changeRouter(props.nama_menu, props.lokasi)}
             className="card-menu"
             variant="top"
             src={props.gambar_menu}
+            alt="..."
           />
-          <Card.Body style={{ padding: "0" }}>
-            <p className="pt-3 title-menu">{props.nama_menu}</p>
-          </Card.Body>
         </Card>
+        <div style={{ padding: "0" }}>
+          <p className="pt-3 title-menu">{props.nama_menu}</p>
+        </div>
       </div>
     </section>
   );

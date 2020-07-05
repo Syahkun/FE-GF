@@ -73,12 +73,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouterTerdekat()}
       >
         <img
-          src="https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/IDGFSTI00001m7h/hero/8049afdd8e0849c48546b30d8d09c254_1583083290569537786.jpg"
+          src={require("../images/terdekat.jpg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">Terdekat</p>
-        {/* <div className="shadow"></div> */}
+        <p className="text-fitur ">Terdekat</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -86,11 +86,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouter("parade diskon", "")}
       >
         <img
-          src="https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/6-CYLTJKNYERDETN/hero/2dc330e46860424a8a7dedc9adadf373_1589145437798858363.jpg"
+          src={require("../images/placeholder-restaurant-2by1.jpg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">Parade Diskon!</p>
+        <p className="text-fitur">Parade Diskon!</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -98,11 +99,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouter("", true)}
       >
         <img
-          src="https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/6-CZDHLEBZAECXFA/hero/41b031352cbe49ba914d0c223848569b_1587342918628894395.jpeg"
+          src={require("../images/promosi.jpeg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">Promosi</p>
+        <p className="text-fitur">Promosi</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -110,11 +112,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouter("pasti untung", "")}
       >
         <img
-          src="https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/6-CY4WNENDR26VVX/hero/2c566c164a9e43bcaa998be30074bcd0_1587460155630105999.jpeg"
+          src={require("../images/pasti-untung.jpeg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">Pasti Untung</p>
+        <p className="text-fitur">Pasti Untung</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -122,11 +125,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouter("berjuta menunya", "")}
       >
         <img
-          src="https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/IDGFSTI00003o8r/hero/7dd04fb4785944f4b9e91549e1e71836_1584348938135860769.jpeg"
+          src={require("../images/berjuta-menunya.jpeg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">Berjuta Menunya</p>
+        <p className="text-fitur">Berjuta Menunya</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -134,11 +138,12 @@ const CarouselComp = (props) => {
         onClick={() => changeRouter("grabmart", "")}
       >
         <img
-          src="https://dtlscuh0h90jk.cloudfront.net/seller/photos/8647_382.jpg"
+          src={require("../images/placeholder-restaurant-2by1.jpg")}
           alt="..."
           className="carou-item"
         />
-        <p className="">GrabMart</p>
+        <p className="text-fitur">GrabMart</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -150,7 +155,8 @@ const CarouselComp = (props) => {
           alt="..."
           className="carou-item"
         />
-        <p className="">GrabChicken All in One</p>
+        <p className="text-fitur">GrabChicken All in One</p>
+        <p className="shadow"></p>
       </div>
       <div
         className="div-caroures"
@@ -162,7 +168,8 @@ const CarouselComp = (props) => {
           alt="..."
           className="carou-item"
         />
-        <p className="">Menu Siap Masak</p>
+        <p className="text-fitur">Menu Siap Masak</p>
+        <p className="shadow"></p>
       </div>
     </Carousel>
   );

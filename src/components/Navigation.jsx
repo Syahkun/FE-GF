@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Container, Col, Row } from "react-bootstrap";
+import { Navbar, Container, Col, Row, Button } from "react-bootstrap";
 import $ from "jquery";
 
 //import function
@@ -61,12 +61,12 @@ const Navigation = (props) => {
                 <Row>
                   <Col>
                     <Link to="/login/pengguna">
-                      <i>Masuk</i>
+                      <Button class="button-login" variant="light">Masuk</Button> 
                     </Link>
                   </Col>
                   <Link to="/daftar/pengguna">
                     <Col>
-                      <i href="daftar">Daftar</i>{" "}
+                    <Button class="button-login" variant="light">Daftar</Button> 
                     </Col>
                   </Link>
                 </Row>
