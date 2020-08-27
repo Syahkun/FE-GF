@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://0.0.0.0:5000";
+const baseUrl = "https://grabfoods.olantern.xyz";
 
 // export const login = (namaPengguna, kataKunci) => {
 //   return async (dispatch) => {

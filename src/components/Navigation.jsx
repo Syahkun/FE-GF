@@ -60,15 +60,21 @@ const Navigation = (props) => {
               <Container>
                 <Row>
                   <Col>
+                    <Button class="button-login" variant="light">
+                      <img
+                        className="img-shop"
+                        src={require("../images/bag.png")}
+                        alt="..."
+                      ></img>
+                    </Button>
+                  </Col>
+                  <Col>
                     <Link to="/login/pengguna">
-                      <Button class="button-login" variant="light">Masuk</Button> 
+                      <Button class="button-login" variant="light">
+                        Login
+                      </Button>
                     </Link>
                   </Col>
-                  <Link to="/daftar/pengguna">
-                    <Col>
-                    <Button class="button-login" variant="light">Daftar</Button> 
-                    </Col>
-                  </Link>
                 </Row>
               </Container>
             )}

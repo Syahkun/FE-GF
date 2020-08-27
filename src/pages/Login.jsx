@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   doLogin,
   doLogout,
@@ -54,12 +55,13 @@ class Login extends Component {
                 value="Log In"
               />
             </form>
-
-            <div id="formFooter">
-              <a class="underlineHover" href="/">
-                Forgot Password?
-              </a>
-            </div>
+            <Link to="/daftar/pengguna">
+              <div id="formFooter">
+                <a class="underlineHover" href="/">
+                  Sign up?
+                </a>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

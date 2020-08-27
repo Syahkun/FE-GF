@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://0.0.0.0:5000";
+const baseUrl = "https://grabfoods.olantern.xyz";
 
 //function to search location and categorymenu in homepage
 export const getListRestoranByProgram = (program = "", promo = "") => {

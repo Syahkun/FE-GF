@@ -86,7 +86,7 @@ class Result extends Component {
             getHandleLIstTerdekat={this.handleRequestJarakTerdekat}
           />
           {isLoading ? (
-            <div style={{ textAlign: "center" }}>Sabar Jek LOading....</div>
+            <div style={{ textAlign: "center" }}></div>
           ) : (
             <div className="">
               <Container fluid className="empty-res"></Container>
